@@ -10,14 +10,12 @@ const terminal = [
         type: "file",
         content: (
           <div className="py-1">
-            <div>
-              Hi! This is Xiaohan Zou, now an intern at CETC and a research
-              assistant at Peking University.
-            </div>
+            <div>Hi! This is Albert Akrong, fullstack engineer</div>
             <div className="mt-1">
-              I got my bachelor's degree in Software Engineering at Tongji
-              University in 2020. I'm now waiting for starting my graduate
-              study.
+              I hold a Bachelor’s degree in Information technology. I have a
+              hands-on industry experience in modern programming languages and
+              tools, including but not limited to: React, Typescript, NodeJS,
+              Graphql, and AWS to create and implement software applications.
             </div>
           </div>
         )
@@ -26,15 +24,13 @@ const terminal = [
         id: "about-interests",
         title: "interests.txt",
         type: "file",
-        content:
-          "Machine Learning / Deep Learning / Continual Learning / Meta-Learning / Reinforcement Learning / Natural Language Processing"
+        content: "Frontend / Backend / Cloud / Deep Learning"
       },
       {
         id: "about-who-cares",
         title: "who-cares.txt",
         type: "file",
-        content:
-          "I'm open to research / algorithm engineer internships for summer 2021 (base in China) lol."
+        content: "I'm open to frontend / backend / fullstack engineer roles"
       },
       {
         id: "about-contact",
@@ -46,64 +42,44 @@ const terminal = [
               Email:{" "}
               <a
                 className="text-blue-300"
-                href="mailto:renovamenzxh@gmail.com"
+                href="mailto:alphaxsalt@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                renovamenzxh@gmail.com
+                alphaxsalt@gmail.com
               </a>{" "}
-              /{" "}
-              <a
-                className="text-blue-300"
-                href="mailto:xiaohan.zou@foxmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                xiaohan.zou@foxmail.com
-              </a>
             </li>
             <li>
               Github:{" "}
               <a
                 className="text-blue-300"
-                href="https://github.com/Renovamen"
+                href="https://github.com/alphaofficial"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://github.com/Renovamen
+                https://github.com/alphaofficial
               </a>
             </li>
             <li>
               Linkedin:{" "}
               <a
                 className="text-blue-300"
-                href="https://www.linkedin.com/in/xiaohan-zou-55bba0160"
+                href="https://www.linkedin.com/in/albertakrong"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://www.linkedin.com/in/xiaohan-zou-55bba0160
+                https://www.linkedin.com/in/albertakrong
               </a>
             </li>
             <li>
               Blog:{" "}
               <a
                 className="text-blue-300"
-                href="https://zxh.io"
+                href="https://alphaxsalt.meduim.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://zxh.io
-              </a>
-            </li>
-            <li>
-              知乎:{" "}
-              <a
-                className="text-blue-300"
-                href="https://www.zhihu.com/people/chao-neng-gui-su"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.zhihu.com/people/chao-neng-gui-su
+                https://alphaxsalt.medium.com
               </a>
             </li>
           </ul>

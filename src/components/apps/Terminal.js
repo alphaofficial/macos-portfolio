@@ -14,8 +14,7 @@ const getEmoji = () => {
   return emojis[Math.floor(Math.random() * emojis.length)];
 };
 
-const characters =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789富强民主文明和谐自由平等公正法治爱国敬业诚信友善";
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 // rain animation is adopted from: https://codepen.io/P3R0/pen/MwgoKv
 class HowDare extends Component {
@@ -344,7 +343,7 @@ export default class Terminal extends Component {
       <div key={`terminal-input-row-${id}`} className="w-full h-6 flex">
         <div className="w-max flex items-center">
           <span className="text-yellow-200">
-            zou@macbook-pro{" "}
+            alphaxsalt@macbook-pro{" "}
             <span className="text-green-300">{this.getCurDirName()}</span>
           </span>
           <span className="ml-1.5 text-red-400">{">"}</span>
